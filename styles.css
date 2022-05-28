@@ -6,18 +6,23 @@ body {
 }
 
 .header, .footer {
-    background: #2f324b;
-    color: #d7d9cd;
+    background: #192f35;
+    color: #c8d4db;
     padding: 30px;
+    display: flex;
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 350px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -30,8 +35,8 @@ ul {
 
 .darkContainer {
     padding: 80px 350px;
-    background: #2f324b;
-    color: #d7d9cd;
+    background: #192f35;
+    color: #c8d4db;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -44,15 +49,97 @@ ul {
 }
 
 .darkContainer button {
-    background-color: #d7d9cd;
-    border: #2f324b;
+    background-color: #c8d4db;
+    border: #192f35;
     border-radius: 10px;
     padding: 5px 15px;
-    color: #2f324b;
+    color: #192f35;
 }
 
 .darkContainer img {
     max-width: 500px;
     border-radius: 30px;
     flex: 1 10 0;
+}
+
+.content {
+    padding: 40px 350px;
+    background: rgb(241, 241, 241);
+    color: #192f35;
+    font-size: 18px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.content .subtitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    flex-shrink: 0px;
+    gap: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 2px rgb(0 0 0 / 50%);
+}
+
+.box.first {
+    background: #192f35;
+}
+
+.box.second {
+    background: #10263e;
+}
+
+.box.third {
+    background: #d0debf;
+}
+
+.box.fourth {
+    background: #be8946;
+}
+
+.card.text {
+    padding: 0px;
+    margin: 0px;
+}
+
+.quote {
+    padding: 60px 350px 10px 350px;
+    background: #d0debf;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote span {
+    font-size: 36px;
+    font-style: italic;
+    padding: 20px;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 150px;
 }
