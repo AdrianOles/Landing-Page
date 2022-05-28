@@ -52,10 +52,15 @@ ul {
     background-color: #d0debf;
     border: #192f35;
     border-radius: 10px;
-    padding: 5px 15px;
+    padding: 10px 20px;
     color: #10263e;
     font-size: 15px;
     font-weight: bold;
+}
+
+.darkContainer button:hover {
+    background-color: rgb(241, 241, 241);
+    color: #10263e;
 }
 
 .darkContainer img {
@@ -181,4 +186,19 @@ ul {
     font-weight: bold;
 }
 
+.input button:hover {
+    background: #10263e;
+    color: rgb(241, 241, 241);
+    border: 2px solid rgb(241, 241, 241);
+}
 
+a {
+    text-decoration: none;
+    color: #c8d4db;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+a:hover {
+    color: #f0ca99;
+}
