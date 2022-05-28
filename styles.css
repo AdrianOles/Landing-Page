@@ -49,11 +49,13 @@ ul {
 }
 
 .darkContainer button {
-    background-color: #c8d4db;
+    background-color: #d0debf;
     border: #192f35;
     border-radius: 10px;
     padding: 5px 15px;
-    color: #192f35;
+    color: #10263e;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .darkContainer img {
@@ -115,7 +117,7 @@ ul {
 }
 
 .box.fourth {
-    background: #be8946;
+    background: #f0ca99;
 }
 
 .card.text {
@@ -133,13 +135,50 @@ ul {
 }
 
 .quote span {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     padding: 20px;
 }
 
 .author {
-    font-weight: bold;
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 25px;
     margin-right: 150px;
+    margin-bottom: 60px;
 }
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 350px;
+    color: #10263e;
+    background: rgb(241, 241, 241);
+}
+
+.title {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 80px 60px;
+    background-color: #f0ca99;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.input button {
+    background: #f0ca99;
+    border: 2px solid #10263e;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
